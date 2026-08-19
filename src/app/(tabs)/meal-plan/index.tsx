@@ -66,7 +66,7 @@ export default function MealPlanScreen() {
       </ScrollView>
 
       <Link href="/(tabs)/meal-plan/shopping-list" asChild>
-        <Pressable style={[styles.fab, { backgroundColor: '#3c87f7' }]}>
+        <Pressable style={styles.fab}>
           <Ionicons name="cart-outline" size={22} color="#ffffff" />
           <ThemedText type="smallBold" style={styles.fabText}>
             Shopping List
@@ -93,6 +93,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 18,
     paddingVertical: 14,
     borderRadius: 28,
+    backgroundColor: '#3c87f7',
     elevation: 4,
     shadowColor: '#000',
     shadowOpacity: 0.2,

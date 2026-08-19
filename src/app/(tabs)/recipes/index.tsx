@@ -52,7 +52,7 @@ export default function RecipesScreen() {
       />
 
       <Link href="/(tabs)/recipes/new" asChild>
-        <Pressable style={[styles.fab, { backgroundColor: '#3c87f7' }]}>
+        <Pressable style={styles.fab}>
           <Ionicons name="add" size={28} color="#ffffff" />
         </Pressable>
       </Link>
@@ -79,6 +79,7 @@ const styles = StyleSheet.create({
     borderRadius: 28,
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: '#3c87f7',
     elevation: 4,
     shadowColor: '#000',
     shadowOpacity: 0.2,
