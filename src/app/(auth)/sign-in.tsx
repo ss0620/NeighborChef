@@ -25,7 +25,7 @@ export default function SignInScreen() {
   return (
     <Screen style={styles.container}>
       <View style={styles.form}>
-        <ThemedText type="title">HomeCooks</ThemedText>
+        <ThemedText type="title">NeighborChef</ThemedText>
         <ThemedText themeColor="textSecondary">Sign in to plan meals and browse the marketplace.</ThemedText>
 
         <TextField

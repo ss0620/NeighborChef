@@ -1,4 +1,4 @@
--- HomeCooks Phase 1 schema: profiles, recipes, meal planning, marketplace listings, cart-splitting orders.
+-- NeighborChef Phase 1 schema: profiles, recipes, meal planning, marketplace listings, cart-splitting orders.
 -- Money is stored as integer cents throughout.
 
 create extension if not exists "pgcrypto";

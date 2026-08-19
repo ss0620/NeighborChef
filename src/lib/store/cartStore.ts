@@ -43,7 +43,7 @@ export const useCartStore = create<CartState>()(
       clear: () => set({ lines: [] }),
     }),
     {
-      name: 'homecooks-cart',
+      name: 'neighborchef-cart',
       storage: createJSONStorage(() => AsyncStorage),
     }
   )
